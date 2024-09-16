@@ -1,4 +1,4 @@
-# Welcome to your Expo app 👋
+# Dice roller app 🎲
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
@@ -9,42 +9,62 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    ```bash
    npm install
    ```
+   or
+   ```bash
+   yarn
+   ```
 
 2. Start the app
 
    ```bash
     npx expo start
    ```
+   or
+   ```bash
+   yarn start
+   ```
 
-In the output, you'll find options to open the app in a
+3. Run the app on a device or simulator
+- Use the Expo Go app on your mobile device to scan the QR code that appears in the terminal.
+- Alternatively, press <kbd>i</kbd> to open the iOS simulator (Mac only) or <kbd>a</kbd> to open the Android emulator.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## How the App Works
+- The app simulates rolling two six-sided dice.
+- Tap the screen to roll the dice. Each dice will randomly display a value between 1 and 6.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Requirements
+- Node.js installed on your machine.
+- Expo CLI installed globally (npm install -g expo-cli) if you want to use additional Expo commands.
 
-## Get a fresh project
+## Development Notes
+- The app was built using Expo Router and TypeScript.
+- If you want to add new features or modify the app, simply edit the app/index.tsx file where the main logic resides.
+- Feel free to fork this repository and make changes!
 
-When you're ready, run:
+## Contributing
+- Fork this repository.
+- Create a new branch for your feature:
+  ```bash
+    git checkout -b feature-name
+   ```
+- Create a new branch for your feature:
+  ```bash
+    git commit -m 'Add some feature'
+   ```
+- Push to the branch:
+  ```bash
+    git push origin feature-name
+   ```
+- Submit a pull request.
 
-```bash
-npm run reset-project
-```
+ ## License 
+ This project is open-source and released under the MIT License. This means you can:
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+* **Use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software**
+* **Use the software for any purpose, including commercial applications**
 
-## Learn more
+**However, you must include the above copyright notice and this permission notice in all copies or substantial portions of the software.**
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+For more information, please refer to the [MIT License](https://opensource.org/licenses/MIT).
+<br />
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
